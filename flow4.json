@@ -1,0 +1,41 @@
+{
+id: "3d9c03c9.3c2ffc",
+label: "TMP",
+info: "",
+nodes: [
+{
+id: "1cda0318.fa9b0d",
+type: "inject",
+z: "3d9c03c9.3c2ffc",
+name: "",
+topic: "",
+payload: "",
+payloadType: "date",
+repeat: "",
+crontab: "",
+once: false,
+onceDelay: 0.1,
+x: 240,
+y: 200,
+wires: [
+[
+"fe66c8e3.c68f38"
+]
+]
+},
+{
+id: "fe66c8e3.c68f38",
+type: "debug",
+z: "3d9c03c9.3c2ffc",
+name: "",
+active: true,
+tosidebar: true,
+console: false,
+tostatus: false,
+complete: "false",
+x: 480,
+y: 200,
+wires: [ ]
+}
+]
+}
