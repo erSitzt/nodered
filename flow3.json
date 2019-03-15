@@ -1,0 +1,43 @@
+[
+    {
+        "id": "3d9c03c9.3c2ffc",
+        "type": "tab",
+        "label": "TMP",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "fec34643.46a3c8",
+        "type": "inject",
+        "z": "3d9c03c9.3c2ffc",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 220,
+        "y": 280,
+        "wires": [
+            [
+                "370e92d5.4e947e"
+            ]
+        ]
+    },
+    {
+        "id": "370e92d5.4e947e",
+        "type": "debug",
+        "z": "3d9c03c9.3c2ffc",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 500,
+        "y": 280,
+        "wires": []
+    }
+]
